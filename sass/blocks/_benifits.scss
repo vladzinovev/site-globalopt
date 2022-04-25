@@ -1,0 +1,88 @@
+.benifits{
+    min-height: 590px;
+    padding: 57px 0 52px 0;
+    background-color: #f3f3f3;
+    h2{
+           
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.88;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &_main{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        &_block1{
+            margin-left: 60px;
+            width: 447px;
+            .benifits_main_descr{
+                margin-top: 36px;
+                position: relative;
+                img{
+                    left: -80px;
+                    position: absolute;
+                }
+                div{
+                    .span1{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #ec644b;
+                    }
+                    .span2{
+                        margin-top: 7px;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.57;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #3a3a3a;
+                    }
+                }
+            }
+            
+        }
+        &_block2{
+            width: 473px;
+            .benifits_main_descr{
+                margin-top: 36px;
+                position: relative;
+                img{
+                    left: -80px;
+                    position: absolute;
+                }
+                div{
+                    .span1{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #ec644b;
+                    }
+                    .span2{
+                        margin-top: 7px;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.57;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #3a3a3a;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    
+   
+}
