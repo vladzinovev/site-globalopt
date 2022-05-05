@@ -375,4 +375,71 @@
   text-align: left;
   color: #3a3a3a;
 }
+
+.work {
+  min-height: 619px;
+  padding: 51px 0  57px 0;
+}
+
+.work_main_title {
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.work_main_line {
+  width: 148px;
+  height: 2px;
+  margin-top: 4px;
+  border-top: 2px solid #fff;
+}
+
+.work_main_subtitle {
+  margin-top: 17px auto;
+  width: 879px;
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.work_main_blocks {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work_main_blocks .block_title {
+  margin-top: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #ec644b;
+}
+
+.work_main_blocks .block_main {
+  margin-top: 28px;
+  width: 359px;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #3a3a3a;
+}
 /*# sourceMappingURL=style.css.map */
