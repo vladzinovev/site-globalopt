@@ -394,13 +394,13 @@
 
 .work_main_line {
   width: 148px;
-  height: 2px;
-  margin-top: 4px;
-  border-top: 2px solid #fff;
+  height: 1px;
+  margin: 20px auto 13px auto;
+  border-top: 1px solid #ec644b;
 }
 
 .work_main_subtitle {
-  margin-top: 17px auto;
+  margin: 0 auto;
   width: 879px;
   font-size: 21px;
   font-weight: 300;
@@ -413,7 +413,7 @@
 }
 
 .work_main_blocks {
-  margin-top: 20px;
+  margin-top: 37px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,7 +431,7 @@
 }
 
 .work_main_blocks .block_main {
-  margin-top: 28px;
+  margin-top: 10px;
   width: 359px;
   font-size: 14px;
   font-weight: 300;

@@ -14,12 +14,12 @@
         }
         &_line{
             width: 148px;
-            height: 2px;
-            margin-top: 4px;
-            border-top: 2px solid #fff;
+            height: 1px;
+            margin: 20px auto 13px auto ;
+            border-top: 1px solid #ec644b;
         }
         &_subtitle{
-            margin-top: 17px auto;
+            margin: 0 auto;
             width: 879px;
             font-size: 21px;
             font-weight: 300;
@@ -31,7 +31,7 @@
             color: #2e2e2e;
         }
         &_blocks{
-            margin-top: 20px;
+            margin-top: 37px;
             display: flex;
             justify-content: space-between;
             .block{
@@ -43,7 +43,7 @@
                     color: #ec644b;
                 }
                 &_main{
-                    margin-top: 28px;
+                    margin-top: 10px;
                     width: 359px;
                     font-size: 14px;
                     font-weight: 300;
