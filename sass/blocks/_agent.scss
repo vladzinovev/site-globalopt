@@ -1,0 +1,38 @@
+.agent{
+    min-height:342px;
+    padding: 58px 0 53px 0;
+    background-image: url('../../img/mountains.jpg');
+    background-position: center center;
+    background-size: cover;
+    &_main{
+        img{
+            display: block;
+            margin: 0 auto;
+
+        }
+        .title{
+            margin-top: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+        }
+        .description{
+            width: 990px;
+            margin: 22px auto;
+            font-size: 19px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.42;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            opacity: 0.7;
+        }
+    }
+}
