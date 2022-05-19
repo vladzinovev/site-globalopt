@@ -3,47 +3,142 @@
     padding: 53px 0 58px 0;
     &_main{
         &_h2{
-
+            text-transform: uppercase;
+            font-size: 26px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: #2e2e2e;
         }
         &_line{
-
+            width: 148px;
+            height: 1px;
+            margin: 20px auto 13px auto ;
+            border-top: 1px solid #ec644b;
         }
         &_subtitle{
-
+            width: 691px;
+            margin: 4px auto;
+            font-size: 21px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+            text-align: center;
+            color: #2e2e2e;
+        
         }
         &_blocks{
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-between;
             .block{
+                width: 265px;
+                height: 355px;
+                border: solid 1px #e9e9e9;
+                background-color: #fff;
                 &_header{
+                    width: 261px;
+                    height: 61px;
+                    background-color: #25333c;
+                    padding-top: 20px;
+                    margin-bottom: 10px;
                     &_h3{
-
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.44;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #fff;
                     }
                 }
                 img{
-
+                    display: block;
+                    margin:0 auto;
                 }
                 &_h4{
-
+                    text-transform: uppercase;
+                    margin-top: 12px;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.64;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #2e2e2e;
                 }
                 &_price{
-
+                    font-size: 28px;
+                    line-height: 1.07;
+                    color: #ec644b;
+                    
+                    text-align: center;
                 }
                 &_main{
-
+                    width: 234px;
+                    margin: 19px auto;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.43;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #2e2e2e;
                 }
                 .btn3{
+                    display: block;
+                    margin: 11px auto;
+                    width: 160px;
+                    height: 45px;
+                    padding: 7px 45px 7px 43px;
+                    background-color: #dc5238;
+                    border-radius: 100px 100px 100px 100px;
 
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.83;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #fff;
                 }
             }
         }
         &_h3{
-
+            margin: 56px auto;
+            font-size: 28px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.82;
+            letter-spacing: normal;
+            text-align: center;
+            color: #3a3a3a;
         }
         img{
 
         }
         .feed_form{
+            width: 1140px;
+            height: 166px;
+            margin: 71px 395px 80px 389px;
+            padding: 68px 162px 53px;
+            border: solid 1px #898989;
+            input{
+
+            }
             .btn4{
-                
+
             }
         }
     }
