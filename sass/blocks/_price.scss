@@ -2,6 +2,7 @@
     min-height: 952px;
     padding: 53px 0 58px 0;
     &_main{
+        position: relative;
         &_h2{
             text-transform: uppercase;
             font-size: 26px;
@@ -103,7 +104,7 @@
                     padding: 7px 45px 7px 43px;
                     background-color: #dc5238;
                     border-radius: 100px 100px 100px 100px;
-
+                    cursor: pointer;
                     font-weight: normal;
                     font-stretch: normal;
                     font-style: normal;
@@ -111,6 +112,8 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #fff;
+                    
+                border-style: none;
                 }
             }
         }
@@ -125,20 +128,47 @@
             text-align: center;
             color: #3a3a3a;
         }
-        img{
-
+        .operator-girl{
+            position: absolute;
+            left: 519px;
+            bottom: 118px;
         }
         .feed_form{
             width: 1140px;
             height: 166px;
-            margin: 71px 395px 80px 389px;
-            padding: 68px 162px 53px;
+            margin: 75px auto;
             border: solid 1px #898989;
+            padding: 0 162px;
             input{
-
+                display: inline-flex;
+                justify-content: space-between;
+                width: 268px;
+                height: 45px;
+                margin: 68px 0 17px 0;
+                padding: 18px 0px 18px 28px;
+                border: solid 1px rgba(0, 0, 0, 0.21);
+                background-color: #fff;
+                border-radius: 100px 100px 100px 100px;
             }
             .btn4{
+                display: block;
+                margin: 11px auto;
+                width: 160px;
+                height: 45px;
+                padding: 7px auto;
+                background-color: #dc5238;
+                border-radius: 100px 100px 100px 100px;
 
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #fff;
+                
+                cursor: pointer;
+                border-style: none;
+            
             }
         }
     }
