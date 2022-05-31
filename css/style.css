@@ -53,6 +53,12 @@
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+  opacity: 0.9;
+}
+
+.header_main_nav .navigation div a:hover {
+  color: #ec644b;
+  text-decoration: underline;
 }
 
 .header_main_nav .navigation .rline {
@@ -72,6 +78,7 @@
   font-weight: 300;
   text-align: right;
   color: #fff;
+  opacity: 0.8;
 }
 
 .header_main_nav .number .num {
@@ -86,7 +93,7 @@
   width: 160px;
   height: 45px;
   margin-top: 26px;
-  padding: 10px 10px;
+  padding: 12px 10px;
   background-color: #ec644b;
   border-radius: 100px 100px 100px 100px;
   text-transform: uppercase;
@@ -99,6 +106,12 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+}
+
+.header_main_nav .btn1:hover {
+  -webkit-box-shadow: 3px 3px 20px #fff;
+          box-shadow: 3px 3px 20px #fff;
 }
 
 .header_main .logistics {
@@ -174,7 +187,7 @@
 }
 
 .header_main .blocksx4 .block1 {
-  width: 260px;
+  width: 262px;
 }
 
 .header_main .blocksx4 .block1 .img1 {
@@ -193,6 +206,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  opacity: 0.7;
 }
 
 .header_main .blocksx4 .block2 {
@@ -215,6 +229,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  opacity: 0.7;
 }
 
 .header_main .blocksx4 .block3 {
@@ -237,6 +252,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  opacity: 0.7;
 }
 
 .header_main .blocksx4 .block4 {
@@ -259,13 +275,14 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  opacity: 0.7;
 }
 
 .header_main .btn2 {
   display: block;
   border-style: none;
   margin: 0 auto;
-  padding: 10px 10px;
+  padding: 20px 10px;
   background-color: #ec644b;
   border-radius: 100px 100px 100px 100px;
   text-transform: uppercase;
@@ -279,6 +296,12 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+}
+
+.header_main .btn2:hover {
+  -webkit-box-shadow: 3px 3px 20px #fff;
+          box-shadow: 3px 3px 20px #fff;
 }
 
 .benifits {
@@ -345,7 +368,7 @@
 }
 
 .benifits_main_block2 {
-  width: 473px;
+  width: 461px;
 }
 
 .benifits_main_block2 .benifits_main_descr {
@@ -403,7 +426,7 @@
 
 .work_main_subtitle {
   margin: 0 auto;
-  width: 879px;
+  width: 882px;
   font-size: 21px;
   font-weight: 300;
   font-stretch: normal;
@@ -434,7 +457,7 @@
 
 .work_main_blocks .block_main {
   margin-top: 10px;
-  width: 359px;
+  width: 362px;
   font-size: 14px;
   font-weight: 300;
   font-stretch: normal;
@@ -513,7 +536,7 @@
 }
 
 .price_main_subtitle {
-  width: 691px;
+  width: 694px;
   margin: 4px auto;
   font-size: 21px;
   font-weight: 300;
@@ -553,7 +576,6 @@
 .price_main_blocks .block_header_h3 {
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.44;
@@ -589,8 +611,8 @@
 }
 
 .price_main_blocks .block_main {
-  width: 234px;
-  margin: 19px auto;
+  width: 236px;
+  margin: 15px auto;
   font-size: 14px;
   font-weight: 300;
   font-stretch: normal;
@@ -606,10 +628,9 @@
   margin: 11px auto;
   width: 160px;
   height: 45px;
-  padding: 7px 45px 7px 43px;
+  padding: 11px 10px;
   background-color: #dc5238;
   border-radius: 100px 100px 100px 100px;
-  cursor: pointer;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -618,6 +639,13 @@
   text-align: center;
   color: #fff;
   border-style: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.price_main_blocks .block .btn3:hover {
+  -webkit-box-shadow: 3px 3px 20px #ec644b;
+          box-shadow: 3px 3px 20px #ec644b;
 }
 
 .price_main_h3 {
@@ -673,7 +701,7 @@
 .price_main .feed_form .btn4 {
   display: block;
   margin: 11px auto;
-  width: 160px;
+  width: 195px;
   height: 45px;
   padding: 7px auto;
   background-color: #dc5238;
@@ -684,8 +712,14 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
-  cursor: pointer;
+  text-transform: uppercase;
   border-style: none;
+  cursor: pointer;
+}
+
+.price_main .feed_form .btn4:hover {
+  -webkit-box-shadow: 3px 3px 20px #ec644b;
+          box-shadow: 3px 3px 20px #ec644b;
 }
 
 .managers {
@@ -714,8 +748,8 @@
 }
 
 .managers_main .description {
-  width: 990px;
-  margin: 22px auto;
+  width: 930px;
+  margin: 18px auto;
   font-size: 19px;
   font-weight: 300;
   font-stretch: normal;

@@ -28,6 +28,13 @@
                         letter-spacing: normal;
                         text-align: left;
                         color: #fff;
+                        
+                    opacity: 0.9;
+                        
+                    }
+                    a:hover{
+                        color: #ec644b;
+                        text-decoration: underline;
                     }
                 }
                 .rline{
@@ -45,6 +52,7 @@
                     font-weight: 300;
                     text-align: right;
                     color: #fff;
+                    opacity: 0.8;
                 }
                 .num{
                     font-size: 18px;
@@ -58,7 +66,7 @@
                 width: 160px;
                 height: 45px;
                 margin-top: 26px;
-                padding: 10px 10px;
+                padding: 12px 10px;
                 background-color: #ec644b;
                 border-radius: 100px 100px 100px 100px;
                 text-transform: uppercase;
@@ -71,6 +79,10 @@
                 letter-spacing: normal;
                 text-align: center;
                 color: #fff;
+                cursor: pointer;
+                &:hover{
+                    box-shadow: 3px 3px 20px #fff;
+                }
               
             }
         }
@@ -140,7 +152,7 @@
             margin-top: 27px;
             justify-content: space-between;
             .block1{
-                width:260px ;
+                width:262px ;
                 .img1{
                     display: block;
                     margin: 10px auto;
@@ -156,6 +168,7 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #fff;
+                    opacity: 0.7;
                 }
             }
             .block2{
@@ -176,6 +189,7 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #fff;
+                    opacity: 0.7;
                 }
             }
             .block3{
@@ -196,6 +210,7 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #fff;
+                    opacity: 0.7;
                 }
             }
             .block4{
@@ -216,6 +231,7 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #fff;
+                    opacity: 0.7;
                 }
             }
         }
@@ -225,7 +241,7 @@
             margin: 0 auto;
             
             
-            padding: 10px 10px;
+            padding: 20px 10px;
             background-color: #ec644b;
             border-radius: 100px 100px 100px 100px;
             text-transform: uppercase;
@@ -243,6 +259,10 @@
             letter-spacing: normal;
             text-align: center;
             color: #fff;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 3px 3px 20px #fff;
+            }
         }
     }
    
