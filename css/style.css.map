@@ -8,7 +8,8 @@
         "../sass/blocks/_work.scss",
         "../sass/blocks/_agent.scss",
         "../sass/blocks/_price.scss",
-        "../sass/blocks/_managers.scss"
+        "../sass/blocks/_managers.scss",
+        "../sass/blocks/_scheme.scss"
     ],
     "names": [],
     "file": "style.css"
