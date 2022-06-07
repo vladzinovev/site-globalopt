@@ -4,6 +4,7 @@
     background-color: #f3f3f3;
     &_main{
         &_title{
+            text-transform: uppercase;
             font-size: 26px;
             font-weight: bold;
             font-stretch: normal;
@@ -14,20 +15,21 @@
             color: #2e2e2e;
         }
         &_blocks{
-            margin-top: 30px;
+            margin-top: 20px;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
             .block{
-                margin-top: 20px;
+                margin:20px 12px 0 12px ;
                 width: 258px;
                 height: 145px;
                 img{
                     display: block;
                     margin: 0 auto;
+                    height: 54px;
                 }
                 &_title{
-                    margin-top: 17px;
+                    margin-top: 10px;
                     font-stretch: normal;
                     font-style: normal;
                     line-height: 1.43;
@@ -40,7 +42,7 @@
 
                 }
                 &_descr{
-                    margin-top: 7px;
+                    margin-top: 2px;
                     font-size: 14px;
                     font-weight: 300;
                     font-stretch: normal;

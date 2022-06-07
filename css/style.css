@@ -768,6 +768,7 @@
 }
 
 .scheme_main_title {
+  text-transform: uppercase;
   font-size: 26px;
   font-weight: bold;
   font-stretch: normal;
@@ -779,18 +780,19 @@
 }
 
 .scheme_main_blocks {
-  margin-top: 30px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .scheme_main_blocks .block {
-  margin-top: 20px;
+  margin: 20px 12px 0 12px;
   width: 258px;
   height: 145px;
 }
@@ -798,10 +800,11 @@
 .scheme_main_blocks .block img {
   display: block;
   margin: 0 auto;
+  height: 54px;
 }
 
 .scheme_main_blocks .block_title {
-  margin-top: 17px;
+  margin-top: 10px;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.43;
@@ -813,7 +816,7 @@
 }
 
 .scheme_main_blocks .block_descr {
-  margin-top: 7px;
+  margin-top: 2px;
   font-size: 14px;
   font-weight: 300;
   font-stretch: normal;
