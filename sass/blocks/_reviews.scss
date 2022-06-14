@@ -36,6 +36,9 @@
         &_albom{
             margin-top: 31px;
             display: flex;
+            button{
+                border:none;
+            }
             &_left{
                 top: 170px;
                 position: absolute;

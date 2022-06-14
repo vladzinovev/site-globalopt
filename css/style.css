@@ -875,6 +875,10 @@
   display: flex;
 }
 
+.reviews_main_albom button {
+  border: none;
+}
+
 .reviews_main_albom_left {
   top: 170px;
   position: absolute;
