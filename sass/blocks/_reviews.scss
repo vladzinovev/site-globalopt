@@ -1,0 +1,113 @@
+.reviews{
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &_main{
+        position: relative;
+        &_h2{
+            text-transform: uppercase;
+            font-size: 26px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: #2e2e2e;
+        }
+        &_line{
+            width: 148px;
+            height: 1px;
+            margin: 20px auto 13px auto ;
+            border-top: 1px solid #ec644b;
+        }
+        &_descr{
+            width: 694px;
+            margin: 4px auto;
+            font-size: 21px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+            text-align: center;
+            color: #2e2e2e;
+        
+        }
+        &_albom{
+            margin-top: 31px;
+            display: flex;
+            &_left{
+                top: 170px;
+                position: absolute;
+                right: 800px;
+            }
+            &_right{
+                top: 170px;
+                right: 600px;
+                position: absolute;
+            }
+            &_comment{
+                width: 601px;
+                margin: 0 20px 0 20px;
+                &_photo{
+                    width: 114px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                &_h4{
+                    margin-top:18px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.57;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #3a3a3a;
+                }
+                &_descr{
+                    margin-top: 18px ;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.57;
+                    letter-spacing: normal;
+                    text-align: justify;
+                    color: #3a3a3a;
+                }
+            }
+            .small{
+                opacity: 0.5;
+                width: 360px;
+                margin-top: 70px;
+                &_photo{
+                    width: 50px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                &_h4{
+                    margin-top:18px;
+                    font-size: 10px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.57;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #3a3a3a;
+                }
+                &_descr{
+                    margin-top: 8px ;
+                    font-size: 10px;
+                    font-weight: 300;
+                    text-align: justify;
+                    color: #3a3a3a;
+                }
+            }
+        }
+    }
+    .container{
+        width: 1412px;
+    }
+}
